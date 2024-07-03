@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            background-color: #000;
+            color: #fff; /* White text */
+            display: flex;
+        }
+        .sidebar {
+            background-color: #333;
+            padding: 1rem;
+            width: 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+        }
+        .sidebar a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 15px;
+            margin: 10px 0;
+            display: block;
+            text-align: center;
+            border-radius: 50%;
+            background-color: #444;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .sidebar a:hover {
+        }
+        .content {
+            padding: 2rem;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        h1, h2 {
+            margin: 1rem 0;
+        }
+        p {
+            line-height: 1.5;
+            max-width: 800px;
+        }
+        .game-link {
+            margin-top: 2rem;
+            display: flex;
+            align-items: center;
+        }
+        .game-link img {
+            max-width: 200px;
+            margin-right: 1rem;
+        }
+        .game-link a {
+            font-size: 1.5rem;
+            text-decoration: none;
+            color: #fff;
+            display: flex;
+            align-items: center;
+        }
+        .game-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <a href="index.html">Home</a>
+        <a href="gta6.html">GTA 6</a>
+        <a href="doom.html">Doom: The Dark Ages</a>
+    </div>
+    <div class="content">
+        <!-- Your content for the home page -->
+        <h1>Welcome to the Gaming Landscape</h1>
+        <p>Explore the latest in gaming adventures:</p>
+        <div class="game-link">
+            <a href="gta6.html">
+                <img src="image1.png" alt="GTA 6" />
+                GTA 6: Cruising for Leaks, News, and Maybe Even Love?
+            </a>
+        </div>
+        <div class="game-link">
+            <a href="doom.html">
+                <img src="image2.png" alt="Doom: The Dark Ages" />
+                Doom: The Dark Ages - A Slayer's Saga Forged in Rumors and Revelation
+            </a>
+        </div>
+    </div>
+</body>
+</html>
